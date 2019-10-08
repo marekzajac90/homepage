@@ -1,3 +1,29 @@
 body {
-    color: cyan;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.main_header {
+    width: 70%;
+    margin: 0 auto;
+}
+.header_titel {
+    margin: 30px 0 70px;
+    text-align: center;
+}
+section {
+    width: 50%;
+    margin: 50px auto;
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid #aaa
+}
+footer {
+    background-color: #ddd;
+    height: 50px;
+    text-align: center;
+}
+.footer_p{
+    line-height: 50px;
 }
